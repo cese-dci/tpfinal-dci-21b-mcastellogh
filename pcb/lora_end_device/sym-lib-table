@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name rfm95w-868s2_mcc)(type Legacy)(uri /home/mcastello/work/kicad/libs/rfm95/rfm95w-868s2_mcc.lib)(options "")(descr ""))
+)

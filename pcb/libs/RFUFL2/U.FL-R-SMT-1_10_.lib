@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# U.FL-R-SMT-1(10)
+#
+DEF U.FL-R-SMT-1(10) J 0 40 N N 1 L N
+F0 "J" -100 200 50 H V L BNN
+F1 "U.FL-R-SMT-1(10)" 100 200 50 H V L BNN
+F2 "HRS_U.FL-R-SMT-1(10)" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "0.71 USD" 0 0 50 H I L BNN "PRICE"
+F5 "None" 0 0 50 H I L BNN "PACKAGE"
+F6 "Manufacturer Recommendation" 0 0 50 H I L BNN "STANDARD"
+F7 "U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle" 0 0 50 H I L BNN "DESCRIPTION"
+F8 "U.FL-R-SMT-1_10_" 0 0 50 H I L BNN "MP"
+F9 "Hirose" 0 0 50 H I L BNN "MANUFACTURER"
+F10 "Good" 0 0 50 H I L BNN "AVAILABILITY"
+DRAW
+P 2 0 0 10 -55 125 0 125 N
+P 2 0 0 10 0 0 -55 125 N
+P 2 0 0 10 0 125 0 0 N
+P 2 0 0 10 0 125 55 125 N
+P 2 0 0 10 55 125 0 0 N
+P 2 0 1 0 50 50 50 0 N
+P 2 0 1 0 50 50 50 100 N
+P 3 0 1 0 50 0 50 -100 0 -100 N
+X ~ 1 -100 -100 100 R 40 40 0 0 P
+X ~ 2 -100 0 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
