@@ -10,7 +10,7 @@ Rev "1.0"
 Comp "Copyright mcastello Ingeniería"
 Comment1 "Revisor: Ignacio Moya"
 Comment2 "Autor: Marcelo Castello"
-Comment3 ""
+Comment3 "Licencia: TAPR Open Hardware Licence"
 Comment4 ""
 $EndDescr
 $Comp
@@ -168,18 +168,6 @@ F 3 "" H 3350 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP6021:MCP6021 U2
-U 1 1 60EC49B0
-P 3650 3800
-F 0 "U2" H 3850 3950 50  0000 L CNN
-F 1 "MCP6021" H 3850 3650 50  0000 L CNN
-F 2 "mcp6021:SOT23-5" H 3650 3800 50  0001 L BNN
-F 3 "" H 3650 3800 50  0001 L BNN
-F 4 "IC-12504" H 3650 3800 50  0001 L BNN "PROD_ID"
-	1    3650 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR08
 U 1 1 60F6DD74
 P 4600 5700
@@ -266,7 +254,7 @@ P 6350 1550
 F 0 "J2" H 6321 1842 50  0000 C CNN
 F 1 "UFL" H 6321 1751 50  0000 C CNN
 F 2 "RFUFL2:HRS_U.FL-R-SMT-1(10)" H 6350 1550 50  0001 L BNN
-F 3 "" H 6350 1550 50  0001 L BNN
+F 3 "https://www.farnell.com/datasheets/2691132.pdf" H 6350 1550 50  0001 L BNN
 F 4 "0.71 USD" H 6350 1550 50  0001 L BNN "PRICE"
 F 5 "None" H 6350 1550 50  0001 L BNN "PACKAGE"
 F 6 "Manufacturer Recommendation" H 6350 1550 50  0001 L BNN "STANDARD"
@@ -349,7 +337,7 @@ P 7800 1650
 F 0 "J3" H 8030 1746 50  0000 L CNN
 F 1 "SMA" H 8030 1655 50  0000 L CNN
 F 2 "RFSMA:AMPHENOL_132203RP" H 7800 1650 50  0001 L BNN
-F 3 "" H 7800 1650 50  0001 L BNN
+F 3 "https://ar.mouser.com/datasheet/2/18/1/amph_s_a0001368065_1-2260743.pdf" H 7800 1650 50  0001 L BNN
 F 4 "Manufacturer recommendations" H 7800 1650 50  0001 L BNN "STANDARD"
 F 5 "AMPHENOL CONEXX" H 7800 1650 50  0001 L BNN "MANUFACTURER"
 F 6 "C" H 7800 1650 50  0001 L BNN "PARTREV"
@@ -689,18 +677,6 @@ F 3 "~" H 7500 4750 50  0001 C CNN
 	1    7500 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L ESP-12S:ESP-12S U5
-U 1 1 60DF253D
-P 8650 3650
-F 0 "U5" H 8650 4517 50  0000 C CNN
-F 1 "ESP-12S" H 8650 4426 50  0000 C CNN
-F 2 "esp12s:ESP-12S" H 8650 3650 50  0001 L BNN
-F 3 "" H 8650 3650 50  0001 L BNN
-F 4 "IC-14115" H 8650 3650 50  0001 L BNN "PROD_ID"
-	1    8650 3650
-	-1   0    0    -1  
-$EndComp
 Wire Notes Line
 	7750 1400 8050 1200
 Wire Notes Line
@@ -782,7 +758,7 @@ P 1850 6300
 F 0 "J1" H 1907 6767 50  0000 C CNN
 F 1 "USB_B_Micro" H 1907 6676 50  0000 C CNN
 F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 2000 6250 50  0001 C CNN
-F 3 "~" H 2000 6250 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2347419.pdf" H 2000 6250 50  0001 C CNN
 	1    1850 6300
 	1    0    0    -1  
 $EndComp
@@ -1019,4 +995,28 @@ Wire Notes Line
 	3150 750  3150 2250
 Wire Notes Line
 	1300 750  1300 2250
+$Comp
+L MCP6021:MCP6021 U2
+U 1 1 60EC49B0
+P 3650 3800
+F 0 "U2" H 3850 3950 50  0000 L CNN
+F 1 "MCP6021" H 3850 3650 50  0000 L CNN
+F 2 "mcp6021:SOT23-5" H 3650 3800 50  0001 L BNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf" H 3650 3800 50  0001 L BNN
+F 4 "IC-12504" H 3650 3800 50  0001 L BNN "PROD_ID"
+	1    3650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP-12S:ESP-12S U5
+U 1 1 60DF253D
+P 8650 3650
+F 0 "U5" H 8650 4517 50  0000 C CNN
+F 1 "ESP-12S" H 8650 4426 50  0000 C CNN
+F 2 "esp12s:ESP-12S" H 8650 3650 50  0001 L BNN
+F 3 "https://docs.ai-thinker.com/_media/esp8266/docs/esp-12s_product_specification_en.pdf" H 8650 3650 50  0001 L BNN
+F 4 "IC-14115" H 8650 3650 50  0001 L BNN "PROD_ID"
+	1    8650 3650
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
