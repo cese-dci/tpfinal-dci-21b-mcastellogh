@@ -80,17 +80,6 @@ F 3 "~" H 4600 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Temperature:TC1047AxNB U1
-U 1 1 60DF79A2
-P 2000 3900
-F 0 "U1" H 1650 4300 50  0000 R CNN
-F 1 "TC1047A" H 1900 4200 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 3500 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21498D.pdf" H 1850 4150 50  0001 C CNN
-	1    2000 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Linear:LD1117S12TR_SOT223 U3
 U 1 1 60DF86C7
 P 4000 6100
@@ -208,10 +197,6 @@ Connection ~ 2900 3900
 Wire Wire Line
 	2900 3900 2950 3900
 Connection ~ 4250 3800
-Wire Wire Line
-	2400 3900 2550 3900
-Wire Wire Line
-	2000 4200 2000 4400
 $Comp
 L power:+3.3V #PWR01
 U 1 1 61049BF7
@@ -223,8 +208,6 @@ F 3 "" H 2000 3400 50  0001 C CNN
 	1    2000 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 3600 2000 3400
 Wire Wire Line
 	2900 6100 3350 6100
 Connection ~ 2900 6100
@@ -1019,4 +1002,21 @@ F 4 "IC-14115" H 8650 3650 50  0001 L BNN "PROD_ID"
 	1    8650 3650
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J7
+U 1 1 610E4A12
+P 1800 3900
+F 0 "J7" H 1880 3942 50  0000 L CNN
+F 1 "Sensor" H 1880 3851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1800 3900 50  0001 C CNN
+F 3 "~" H 1800 3900 50  0001 C CNN
+	1    1800 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 3400 2000 3800
+Wire Wire Line
+	2000 3900 2550 3900
+Wire Wire Line
+	2000 4000 2000 4400
 $EndSCHEMATC
