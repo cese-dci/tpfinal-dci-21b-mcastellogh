@@ -1,4 +1,4 @@
-19213830510614817
+19215455757577250
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73506,6 +73506,13 @@ AMPHENOL_A-1JB
 0
 4
 4
+RFUFL2
+HRS_U.FL-R-SMT-1(10)
+
+
+0
+3
+3
 RF_Antenna
 Abracon_APAES868R8060C16-T
 Abracon RHCP ceramic patch antenna 854-882Mhz, 5dBi
