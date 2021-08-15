@@ -1078,4 +1078,10 @@ Wire Notes Line
 	8050 2100 8200 1950
 Wire Notes Line
 	8200 1950 8700 1950
+Text Notes 7500 2950 0    50   ~ 0
+Línea de transmisión \ntipo coplanar con plano de tierra\nImpedancia 50 ohm\nAncho de pista 0,3 mm\n
+Wire Notes Line
+	7050 2900 7200 2800
+Wire Notes Line
+	7200 2800 7450 2800
 $EndSCHEMATC
